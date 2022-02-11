@@ -1,0 +1,175 @@
+.promo {
+    padding: 33px 0 0 0;
+    background: linear-gradient(180deg, #FBFCFF 0%, #F0F2F5 100%);
+    min-height: 970px;
+    overflow: hidden;
+    &__header {
+        &_burger_list {
+            display: none;
+        }
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_logo {
+            cursor: pointer;
+        }
+        &_menu {
+            &_list {
+                display: flex;
+                &_type {
+                    margin: 0 30px;
+                    a {
+                        font-family: Manrope;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: #3E3E3E;
+                        text-decoration: none;
+                        span {
+                            color: #2285E0;
+                        }
+                    }
+                }
+            }
+        }
+        &_text {
+            a {
+                font-family: Manrope;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 19px;
+                color: #3E3E3E;
+                text-decoration: none;
+                span {
+                    color: #2285E0;
+                }
+            }
+        }
+    }
+    &__info {
+        &_image {
+            position: relative;
+            margin-top: 176px;
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+            &_lupa {
+                position: absolute;
+                top: -24.5%;
+                right: -33%;
+            }
+        }
+        &_title {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 64px;
+            text-align: center;
+            margin-top: 37px;
+            color: #3E3E3E;
+            span {
+                color: #2285E0;
+            }
+        }
+        &_descr {
+            width: 684px;
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            color: #9FB7D3;
+            margin: 0 auto;
+            margin-top: 20px;
+            span {
+                color: #2285E0;
+            }
+        }
+        &_form {
+            &_input {
+                position: relative;
+                text-align: center;
+                margin-top: 35px;
+                input {
+                    width: 766px;
+                    height: 74px;
+                    padding-left: 20px;
+                    border: none;
+                }
+            }
+            &_button {
+                position: absolute;
+                right: 18%;
+                top: 15%;
+                
+            }
+        }
+        &_social {
+            &_wrapper {
+                display: flex;
+                justify-content: space-between;
+            }
+            &_item {
+                display: flex;
+                margin-left: 180px;
+                margin-top: 36.5px;
+                &_descr {
+                    font-family: Manrope;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 19px;
+                    color: #3E3E3E;
+                    margin-left: 10px;
+                    span {
+                        color: #2285E0;
+                    }
+                }
+            }
+            &_bots {
+                display: flex;
+                margin-top: 36.5px;
+                margin-right: 180px;
+                z-index: 1000;
+                &_vk {
+                    margin: 0 30px;
+                    display: flex;
+                    &_descr {
+                        a {
+                            font-family: Manrope;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 22px;
+                            color: #2285E0;
+                            margin-left: 10px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                &_tg {
+                    display: flex;
+                    &_descr {
+                        a {
+                            font-family: Manrope;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 22px;
+                            color: #3E3E3E;
+                            margin-left: 10px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

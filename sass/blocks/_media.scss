@@ -1,0 +1,280 @@
+@media (max-width: 1200px) {
+    .promo__info_image_lupa {
+        display: none;
+    }
+    .container {
+        max-width: 900px;
+        &_second {
+            max-width: 900px;
+        }
+    }
+    .information__procents_wrapper {
+        flex-wrap: wrap;
+    }
+    .information__procents_procent {
+        width: 50%;
+        margin-top: 10px;
+        &_descr {
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
+    .information__main_wrapper {
+        justify-content: center;
+    }
+    .information__main_last_wrapper {
+        flex-wrap: wrap;
+    }
+    .information__main_last_item_image {
+        img {
+            width: 100%;
+        }
+    }
+    .information__main_last {
+        overflow: hidden;
+    }
+    .information__main {
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 700px;
+        &_second {
+            max-width: 700px;
+        }
+    }
+    .promo__info_form_input {
+        input {
+            width: 400px;
+        }
+    }
+    .button--form {
+        width: 140px;
+    }
+    .promo__info_form_button {
+        right: 21%;
+    }
+    .promo__info_social_bots {
+        display: none;
+    }
+    .information__main_last_item_lupa {
+        top: 0;
+        right: 0;
+    }
+    .promo__header_menu {
+        display: none;
+    }
+    .promo__header_text {
+        display: none;
+    }
+    .promo__header_burger {
+        display: block;
+        position: relative;
+        width: 50px;
+        height: 20px;
+        right: 5%;
+        top: 3%;
+        z-index: 1500;
+        &_active {
+            span {
+                display: none;
+                transition: all .3s;
+            }
+            &::before {
+                transform: rotate(-45deg);
+                bottom: 9%;
+                transition: all .3s;
+            }
+            &::after {
+                transform: rotate(45deg);
+                top: 9%;
+                transition: all .3s;
+            }
+        }
+        span {
+            position: absolute;
+            background: #000;
+            width: 100%;
+            height: 4px;
+            top: 9px;
+            left: 0;
+            transition: all .3s;
+        }
+        &:before {
+            position: absolute;
+            background: #000;
+            width: 100%;
+            height: 4px;
+            top: 0;
+            left: 0;
+            content: '';
+            transition: all .3s;
+        }
+        &::after {
+            position: absolute;
+            background: #000;
+            width: 100%;
+            height: 4px;
+            bottom: -16%;
+            left: 0;
+            content: '';
+            transition: all .3s;
+        }
+    }
+    .promo__header_burger_list {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        left: 0;
+        background: rgba(0,0,0,.8);
+        z-index: 100;
+        transition: all .3s;
+        &_active {
+            top: 0;
+        }
+        ul {
+            text-align: center;
+            padding-top: 50px;
+            li {
+                margin: 15px 0;
+                a {
+                    font-family: Manrope;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 22px;
+                    color: #fff;
+                    text-decoration: none;
+                    span {
+                        color: #2285E0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px;
+        &_second {
+            max-width: 500px;
+        }
+    }
+    .information__main_block_footer {
+        min-height: 70px;
+    }
+    .information__main_block_second {
+        width: 400px;
+    }
+    .information__main_block_footer_descr_third {
+        width: 350px;
+    }
+    .information__main_block_footer_second  {
+        width: 400px;
+    }
+    .information__main_block_footer_descr_second {
+        width: 300px;
+    }
+    .information__main_last_item_form_input {
+        width: 350px;
+    }
+    .information__main_last_item_form_button {
+        right: 0%;
+    }
+    .footer__item_list_second {
+        flex-direction: column;
+    }
+    .information__main_descr {
+        width: 350px;
+    }
+    .information__procents_procent_descr {
+        width: 200px;
+    }
+    .promo__info_descr {
+        width: 300px;
+    }
+    .promo__info_image {
+        img {
+            width: 100%;
+        }
+    }
+    .promo__info_form_button  {
+        right: 13%;
+    }
+    .promo__info_social_item {
+        margin-left: 100px;
+    }
+    .information__main_last_item_lupa {
+        top: 20%;
+        right: -103%;
+    }
+    .information__main_last_item_descr {
+        width: 300px;
+    }
+}
+@media (max-width: 572px) {
+    .container {
+        max-width: 300px;
+        &_second {
+            max-width: 300px;
+        }
+    }
+    .promo__info_form_input {
+        input {
+            width: 300px;
+        }
+    }
+    .information__main_block {
+        min-width: 200px;
+        margin-top: 20px;
+    }
+    .information__main_block_top {
+        flex-wrap: wrap;
+    }
+    .information__main_block_footer {
+        height: 100px;
+        width: 233px;
+    }
+    .information__main_block_footer_descr {
+        width: 200px;
+    }
+    .information__main_block_footer_second {
+        height: 130px;
+    }
+    .information__main_block_footer_descr_third {
+        width: 190px;
+    }
+    .information__main_last_item_lupa {
+        display: none;
+    }
+    .information__main_last_item_title {
+        margin-top: 30px;
+    }
+    .information__main_last_item_form_button {
+        position: relative;
+        margin-top: 20px;
+    }
+    .footer__wrapper {
+        flex-wrap: wrap;
+    }
+    .footer__item {
+        &:nth-child(3) {
+            margin-top: 30px;
+        }
+    }
+    .footer {
+        padding-bottom: 30px;
+    }
+    .information__procents_wrapper {
+        flex-direction: column;
+    }
+    .information__procents_procent {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .promo__info_form_button {
+        position: relative;
+    }
+}

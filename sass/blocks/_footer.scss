@@ -1,0 +1,62 @@
+.footer {
+    min-height: 280px;
+    background: linear-gradient(180deg, #2285E0 0%, #135DA2 100%);
+    padding-top: 66px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_descr {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+        &_list {
+            margin-top: 30px;
+            &_second {
+                display: flex;
+                flex-direction: row;
+            }
+            &_type {
+                margin: 5px 0;
+                a {
+                    font-family: Manrope;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 19px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+            }
+            &_type_second {
+                margin: 0 30px; 
+                a {
+                    font-family: Manrope;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &_link {
+            margin: 12.5px 0;
+            border: 1;
+            a {
+                font-family: Manrope;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
